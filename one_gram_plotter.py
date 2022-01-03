@@ -4,9 +4,9 @@ import csv
 import one_gram_reader
 
 def normalize_counts(years, counts, total):
-    norm = {}
+    norm = []
     for i in range(len(years)):
-        norm[int(years[i])] = (counts[i]/total[years[i]])
+        norm.append(counts[i]/total[years[i]])
     return norm
 def plot_words(words, year_range, wfile, tfile):
     total = one_gram_reader.read_total_counts(tfile)
