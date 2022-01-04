@@ -38,14 +38,14 @@ def plot_words(words, year_range, wfile, tfile):
     
 
 def  plot_relative_popularity(word1, word2,year_range, wfile, tfile):
-""" This function plot the frequency of each word throughout a year range
-     Parameters:
+    """This function plot the frequency of each word throughout a year range
+    Parameters:
          word1: string. the fisrt word
          word2: string. the second word
          year_range: list. the first and last year of the year range.
          wfile: string. The name of the file that contain data of the word and the times it's repeat in the year range
-         tfile: string. The name of the file that contain data the total times a word is mentioned in the year range"""
-
+         tfile: string. The name of the file that contain data the total times a word is mentioned in the year range
+    """
     plt.figure()
     words = [word1, word2]
     ratio = []
