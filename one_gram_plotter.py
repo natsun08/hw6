@@ -1,3 +1,7 @@
+"""
+Homework 6
+Author: Dan Nguyen and Ha Chi
+"""
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import csv
